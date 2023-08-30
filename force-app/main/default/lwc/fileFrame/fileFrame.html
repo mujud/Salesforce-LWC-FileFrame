@@ -1,3 +1,38 @@
 <template>
-  <img src={getUrl} />
+  <div class="container">
+    <template if:true={isAvailable}>
+      <img src={getUrl} class="image" onerror={handleUnAvailable} />
+      <img
+        src={getNextUrl}
+        class="next-image"
+        onload={updateIsNextPageEnabled}
+        onerror={updateIsNextPageDisabled}
+      />
+      <template if:true={isPdf}>
+        <div class="overlay">
+          <lightning-button
+            label="Previous"
+            variant="neutral"
+            class="prev-button"
+            onclick={previousPage}
+            disabled={isFirstPage}
+          >
+          </lightning-button>
+          <lightning-button
+            label="Next"
+            variant="brand"
+            class="next-button"
+            onclick={nextPage}
+            disabled={isNextPageDisabled}
+          >
+          </lightning-button></div
+      ></template>
+    </template>
+
+    <template if:false={isAvailable}>
+      <div class="empty-state">
+        <p>{emptyStateMessage}</p>
+      </div>
+    </template>
+  </div>
 </template>

@@ -2,9 +2,16 @@
 <LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
   <apiVersion>47.0</apiVersion>
   <isExposed>true</isExposed>
-  <masterLabel>Best Component Ever</masterLabel>
-  <description>This is a demo component.</description>
+  <masterLabel>File Frame</masterLabel>
+  <description>Display Related Record Files With the Record Flexipage.</description>
   <targets>
     <target>lightning__RecordPage</target>
   </targets>
+  <targetConfigs>
+    <targetConfig targets="lightning__RecordPage">
+      <property name="startWith" label="Starts With" description="A filter to only show documents whose titles start with this text." type="String" />
+      <property name="contains" label="Contains" description="A filter to only show documents whose titles contain this text." type="String" />
+      <property name="emptyStateMessage" label="Empty State Message" description="Text to display if file was not found." type="String" />
+    </targetConfig>
+  </targetConfigs>
 </LightningComponentBundle>
