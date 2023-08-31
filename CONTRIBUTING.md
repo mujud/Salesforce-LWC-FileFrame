@@ -6,7 +6,7 @@ Thank you for considering contributing to Salesforce-LWC-FileFrame! Your input i
 
 ### Reporting Bugs
 
-1. Check the [issues](https://github.com/your_project/issues) to see if the bug has already been reported. If so, please add any additional details that you might have.
+1. Check the [issues](https://github.com/Salesforce-LWC-FileFrame/issues) to see if the bug has already been reported. If so, please add any additional details that you might have.
 2. If the issue doesn't already exist, create a new issue and provide the necessary details.
 
 ### Feature Requests
@@ -26,7 +26,7 @@ Please adhere to the existing coding standards. We primarily use Typescript and 
 
 ## Contact
 
-For major changes, please open an issue first to discuss your proposed changes. You can also reach out via [email](mailto:your_email@example.com) for more direct communication.
+For major changes, please open an issue first to discuss your proposed changes. You can also reach out via [email](mailto:jail@adminagents.ai) for more direct communication.
 
 ## License
 
