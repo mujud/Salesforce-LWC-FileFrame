@@ -4,7 +4,7 @@
 
 Salesforce-LWC-FileFrame is a custom Lightning Web Component that allows you to display related record files directly within a record's Flexipage in Salesforce. This README outlines the steps required to deploy this component to your Salesforce organization.
 
-## Chatgpt Flow Thread:
+## ChatGpt Flow Thread:
 
 If you are curious about how I created this component. You can check out the chatgpt thread I used [here](https://chat.openai.com/share/19c39cf1-f0da-4a96-aa57-76ddc52907a8) and for this readme [here](https://chat.openai.com/share/1c2ca3ad-1021-459a-a5c9-cc2e7fd4b7a8) and [here](https://chat.openai.com/share/915604d1-9c8e-4915-a630-8d7e9a3ad14b) to see how I added more functionality and Testing.
 
